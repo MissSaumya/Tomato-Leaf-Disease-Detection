@@ -1,4 +1,3 @@
-# Tomato-Leaf-Disease-Detection
 # Tomato Plant Leaf Disease Classification using EfficientNet-B0
 
 ## Dataset
@@ -9,8 +8,9 @@ The dataset includes 10 classifications, structured into 10 folders:
 - 1 folder contains images of healthy tomato leaves.
 
 The dataset is organized into:
-- **Training Set:** Contains images of diseased and healthy tomato leaves.
+- **Training Set:** Contains images of diseased and healthy tomato leaves, categorized into 10 separate folders.
 - **Validation Set:** Contains images following the same classification structure as the training set for model evaluation.
+- **Testing Set:** Contains images of tomato leaves labeled with their disease name directly in the image filename, rather than being stored in separate folders.
 
 ## Abstract
 Tomato plant diseases significantly impact crop yield and quality. Detecting and classifying these diseases at an early stage can help in better crop management and prevent large-scale losses.
@@ -45,6 +45,8 @@ The final system can be integrated into a web or mobile application for real-tim
 │   │   ├── Tomato_Tomato_Yellow_Leaf_Curl_Virus
 │   ├── validation
 │   │   ├── (same structure as train folder)
+│   ├── test
+│   │   ├── Individual image files labeled with the disease name in their filename
 ```
 
 ## Usage Instructions
@@ -80,9 +82,6 @@ The model is evaluated using:
 - Deploy the model as a lightweight API for mobile and edge devices.
 - Expand the dataset with more real-world samples for better generalization.
 
-## Contribution
-If you would like to contribute to this project, please submit a pull request or raise an issue for discussion.
 
-## License
-This project is open-source and available under the MIT License.
+
 
