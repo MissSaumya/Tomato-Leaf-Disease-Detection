@@ -52,7 +52,7 @@ The final system can be integrated into a web or mobile application for real-tim
 ## Dataset Download
 Due to the large size, the dataset is hosted externally. You can download it from:
 
-🔗 [Kaggle]((https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset))
+🔗 [Kaggle]([https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset])
 
 After downloading, extract the dataset from Tomato folder.
 
