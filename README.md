@@ -49,6 +49,13 @@ The final system can be integrated into a web or mobile application for real-tim
 │   │   ├── Individual image files labeled with the disease name in their filename
 ```
 
+## Dataset Download
+Due to the large size, the dataset is hosted externally. You can download it from:
+
+🔗 [Kaggle]((https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset))
+
+After downloading, extract the dataset from Tomato folder.
+
 ## Usage Instructions
 1. **Clone the repository:**
    ```bash
